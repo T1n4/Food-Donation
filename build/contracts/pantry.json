@@ -1,0 +1,117 @@
+{
+  "contractName": "pantry",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/pantry.sol\":\"pantry\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/pantry.sol\":{\"keccak256\":\"0x5f35350e7bb4ae05f12dad04d57b52155d2820d5f81a5b74220ebc924f7ef9a0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0ec9f76dca040f2fbe04db2934186500bb4cb48a0859c6249f76aaab41b151ad\",\"dweb:/ipfs/QmdehFGnbx4WNfdWwfrn6YpfaE166d3p1mSjGoCvReoRFq\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212207816b0ddd0fb18eb2864a71adab768e0b67272cd333e19d56d84996ca49e48f764736f6c63430008130033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212207816b0ddd0fb18eb2864a71adab768e0b67272cd333e19d56d84996ca49e48f764736f6c63430008130033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "66:48:0:-:0;;;86:26;;;;;;;;;;66:48;;;;;;",
+  "deployedSourceMap": "66:48:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract pantry {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "/home/cougarnet.uh.edu/fmnartey/Donation_module/contracts/pantry.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/pantry.sol",
+    "exportedSymbols": {
+      "pantry": [
+        6
+      ]
+    },
+    "id": 7,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "pantry",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "pantry",
+        "nameLocation": "75:6:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "107:5:0",
+              "statements": []
+            },
+            "id": 5,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "97:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "107:0:0"
+            },
+            "scope": 6,
+            "src": "86:26:0",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "66:48:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:83:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.19+commit.7dd6d404.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.13",
+  "updatedAt": "2023-05-17T14:42:27.621Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
